@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body>
+
+    <h2>UNIT CONVERSION</h2>
+
+    <div class="container">
+
+        <div class="input">
+            <label for="input"> Input: 
+                <input type="number" value="" id="inputNum">
+            </label>
+        </div>
+        
+        <div>
+            <div class="button1">
+                <input type="button" value="Celsius to Fahrenheit" onclick="getCelsiusToFahrenheit();">
+            </div>
+            
+            <div class="button2">
+                <input type="button" value="Fahrenheit to Celsius" onclick="getFahrenheitToCelsius();">
+            </div>
+        </div>
+
+        <div>
+            <div class="button3">
+                <input type="button" value="Feet to Meters" onclick="getFeetToMeters();">
+            </div>
+    
+            <div class="button4">
+                <input type="button" value="Meters to Feet" onclick="getMetersToFeet();">
+            </div>
+        </div>
+
+        <div>
+            <div class="button5">
+                <input type="button" value="Inches to Centimeters" onclick="getInchesToCentimeters();">
+            </div>
+    
+            <div class="button6">
+                <input type="button" value="Centimeters to Inches" onclick="getCentimetersToInches();">
+            </div>
+        </div>
+
+        <div>
+            <div class="button7">
+                <input type="button" value="Pounds to Kilograms" onclick="getPoundsToKilograms();">
+            </div>
+    
+            <div class="button8">
+                <input type="button" value="Kilograms to Pounds" onclick="getKilogramsToPounds();">
+            </div>
+        </div>
+        
+        <div class="output">
+            <p id="result">Result</p>
+        </div>
+
+        <div class="clear">
+            <input type="button" value="clear" onclick="makeClear();">
+        </div>
+        
+        <script src="_script/script.js"></script>
+
+    </div>
+
+</body>
+</html>
